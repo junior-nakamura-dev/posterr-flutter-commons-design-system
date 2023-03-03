@@ -57,6 +57,6 @@ void main() {
       builder.build(),
       surfaceSize: const Size(500, 300),
     );
-    await screenMatchesGolden(tester, 'custonButton_multiples_states');
+    await screenMatchesGolden(tester, 'customButton_multiples_states');
   });
 }
